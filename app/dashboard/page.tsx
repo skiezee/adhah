@@ -1,53 +1,58 @@
 "use client"
-import Image from "next/image"
-import Navbar from "../components/navbar/navbar"
-import LandingPage from "../components/landing-page/landingPage"
-import LandingSec from "../components/landing-page/landingSecPage"
-import LandingThird from "../components/landing-page/landingThird"
-import LandingFour from "../components/landing-page/landingFourth"
-import LandingFivePage from "../components/landing-page/landingFivePage"
-import LandingSix from "../components/landing-page/landingSixPage"
-import LandingSevenPage from "../components/landing-page/landingSevenPage"
-import Footer from "../components/landing-page/footer"
+import Image from 'next/image';
+import Navbar from '../components/navbar/navbar';
+import LandingPage from '../components/landing-page/landingPage';
+import LandingSec from '../components/landing-page/landingSecPage';
+import LandingThird from '../components/landing-page/landingThird';
+import LandingFour from '../components/landing-page/landingFourth';
+import LandingFivePage from '../components/landing-page/landingFivePage';
+import LandingSix from '../components/landing-page/landingSixPage';
+import LandingSevenPage from '../components/landing-page/landingSevenPage';
+import Footer from '../components/landing-page/footer';
 import React, { useRef } from 'react';
 
 const Dashboard: React.FC = () => {
-
-    const dashboardPage = useRef(null);
+    const landingPageRef = useRef(null);
+    const landingSecRef = useRef(null);
+    const landingThirdRef = useRef(null);
+    const landingFourRef = useRef(null);
+    const landingFiveRef = useRef(null);
+    const landingSixRef = useRef(null);
+    const landingSevenRef = useRef(null);
+    const footerRef = useRef(null);
 
     return (
         <>
             <Navbar />
             <div className="scroll-smooth">
-                <div className="bg-[#FAFAFA]">
-                    <div id="LandingPage" ref={dashboardPage} className=""><LandingPage /></div>
-                    <div id="LandingSec" ref={dashboardPage} className=""><LandingSec /></div>
-                    <div id="LandingThird" ref={dashboardPage} className=""><LandingThird /></div>
+                <div id="LandingPage" ref={landingPageRef} className="">
+                    <LandingPage />
                 </div>
-                <div id="LandingFour" ref={dashboardPage} className="">
+                <div id="LandingSec" ref={landingSecRef} className="">
+                    <LandingSec />
+                </div>
+                <div id="LandingThird" ref={landingThirdRef} className="">
+                    <LandingThird />
+                </div>
+                <div id="LandingFour" ref={landingFourRef} className="">
                     <LandingFour />
                 </div>
-                <div id="LandingFivePage" ref={dashboardPage} className="">
+                <div id="LandingFivePage" ref={landingFiveRef} className="">
                     <LandingFivePage />
                 </div>
-                <div id="LandingSix" ref={dashboardPage} className="">
+                <div id="LandingSix" ref={landingSixRef} className="">
                     <LandingSix />
                 </div>
-                <div id="LandingSevenPage" ref={dashboardPage} className="">
+                <div id="LandingSevenPage" ref={landingSevenRef} className="">
                     <LandingSevenPage />
                 </div>
-                <div id="Footer" ref={dashboardPage} className="">
+                <div id="Footer" ref={footerRef} className="">
                     <Footer />
                 </div>
             </div>
-
-
-
-
-
-
         </>
-    )
-}
+    );
+};
+
 export const dashboardPage = React.createRef<HTMLDivElement>();
 export default Dashboard;

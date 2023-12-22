@@ -1,7 +1,6 @@
 "use client"
 import Image from "next/image"
 import Navbar from "./components/navbar/navbar";
-
 import React, { useRef } from 'react';
 import LandingPage from "./components/landing-page/landingPage";
 import LandingSec from "./components/landing-page/landingSecPage";
