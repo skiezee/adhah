@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
-import Dashboard, { dashboardPage } from '@/app/dashboard/page';
+import Dashboard, {dashboardPage} from '@/app/page';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
