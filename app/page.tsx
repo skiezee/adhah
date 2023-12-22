@@ -55,5 +55,5 @@ const Dashboard: React.FC = () => {
     );
 };
 
-export const dashboardPage = React.createRef<HTMLDivElement>();
+export const dashboard = React.createRef<HTMLDivElement>();
 export default Dashboard;
