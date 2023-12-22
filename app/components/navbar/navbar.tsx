@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
-import Dashboard, { landingPageRef } from '@/app/dashboard/page';
+import Dashboard, { dashboardPage } from '@/app/dashboard/page';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -61,19 +61,19 @@ const Navbar = () => {
         >
           <ul className="font-normal flex flex-col p-4 md:p-0 mt-4 md:mt-0 md:flex-row md:space-x-8 rtl:space-x-reverse">
             <li>
-              <a  onClick={() => handleLinkClick(landingPageRef)} href="/dashboard" className="block py-2 px-3   md:bg-transparent md:p-0 text-[#949494] hover:text-[#555555]" aria-current="page">Beranda</a>
+              <a  onClick={() => handleLinkClick(dashboardPage)} href="/dashboard" className="block py-2 px-3   md:bg-transparent md:p-0 text-[#949494] hover:text-[#555555]" aria-current="page">Beranda</a>
             </li>
             <li>
-              <a onClick={() => handleLinkClick(landingPageRef)} href="#LandingFour" className="block py-2 px-3   md:bg-transparent md:p-0 text-[#949494] hover:text-[#555555]">Misi Kami</a>
+              <a onClick={() => handleLinkClick(dashboardPage)} href="#LandingFour" className="block py-2 px-3   md:bg-transparent md:p-0 text-[#949494] hover:text-[#555555]">Misi Kami</a>
             </li>
             <li>
-              <a onClick={() => handleLinkClick(landingPageRef)} href="#LandingFivePage" className="block py-2 px-3   md:bg-transparent md:p-0 text-[#949494] hover:text-[#555555]">Artikel</a>
+              <a onClick={() => handleLinkClick(dashboardPage)} href="#LandingFivePage" className="block py-2 px-3   md:bg-transparent md:p-0 text-[#949494] hover:text-[#555555]">Artikel</a>
             </li>
             <li>
-              <a onClick={() => handleLinkClick(landingPageRef)} href="#LandingSix" className="block py-2 px-3   md:bg-transparent md:p-0 text-[#949494] hover:text-[#555555]">Informasi Budaya</a>
+              <a onClick={() => handleLinkClick(dashboardPage)} href="#LandingSix" className="block py-2 px-3   md:bg-transparent md:p-0 text-[#949494] hover:text-[#555555]">Informasi Budaya</a>
             </li>
             <li>
-              <a onClick={() => handleLinkClick(landingPageRef)} href="/tentang-kami" className="block py-2 px-3   md:bg-transparent md:p-0 text-[#949494] hover:text-[#555555]">Tentang Kami</a>
+              <a onClick={() => handleLinkClick(dashboardPage)} href="/tentang-kami" className="block py-2 px-3   md:bg-transparent md:p-0 text-[#949494] hover:text-[#555555]">Tentang Kami</a>
             </li>
           </ul>
         </div>

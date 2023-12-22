@@ -13,30 +13,30 @@ import React, { useRef } from 'react';
 
 const Dashboard: React.FC = () => {
 
-    const landingPageRef = useRef(null);
+    const dashboardPage = useRef(null);
 
     return (
         <>
             <Navbar />
             <div className="scroll-smooth">
                 <div className="bg-[#FAFAFA]">
-                    <div id="LandingPage" ref={landingPageRef} className=""><LandingPage /></div>
-                    <div id="LandingSec" ref={landingPageRef} className=""><LandingSec /></div>
-                    <div id="LandingThird" ref={landingPageRef} className=""><LandingThird /></div>
+                    <div id="LandingPage" ref={dashboardPage} className=""><LandingPage /></div>
+                    <div id="LandingSec" ref={dashboardPage} className=""><LandingSec /></div>
+                    <div id="LandingThird" ref={dashboardPage} className=""><LandingThird /></div>
                 </div>
-                <div id="LandingFour" ref={landingPageRef} className="">
+                <div id="LandingFour" ref={dashboardPage} className="">
                     <LandingFour />
                 </div>
-                <div id="LandingFivePage" ref={landingPageRef} className="">
+                <div id="LandingFivePage" ref={dashboardPage} className="">
                     <LandingFivePage />
                 </div>
-                <div id="LandingSix" ref={landingPageRef} className="">
+                <div id="LandingSix" ref={dashboardPage} className="">
                     <LandingSix />
                 </div>
-                <div id="LandingSevenPage" ref={landingPageRef} className="">
+                <div id="LandingSevenPage" ref={dashboardPage} className="">
                     <LandingSevenPage />
                 </div>
-                <div id="Footer" ref={landingPageRef} className="">
+                <div id="Footer" ref={dashboardPage} className="">
                     <Footer />
                 </div>
             </div>
@@ -49,5 +49,5 @@ const Dashboard: React.FC = () => {
         </>
     )
 }
-export const landingPageRef = React.createRef<HTMLDivElement>();
+export const dashboardPage = React.createRef<HTMLDivElement>();
 export default Dashboard;
