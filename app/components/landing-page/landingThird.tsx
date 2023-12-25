@@ -74,17 +74,17 @@ export default class LandingThird extends Component {
                 <div className="relative bg-gradient-to-r from-[#3A170D] to-[#DBA75B]  lg:mt-0 lg:mb-24 pb-10 ">
                     <div className="lg:m-12 lg:m-24 ">
                         <div className="m-8 lg:flex lg:flex-row md:flex md:flex-col justify-between text-white m-12 lg:m-24 py-8 lg:py-12">
-                            <div className="mt-8 lg:mt-12">
+                            <div className="animate-fade-right animate-once animate-duration-[1500ms] mt-8 lg:mt-12">
                                 <p className="font-semibold text-2xl lg:text-5xl">Melek Budaya,</p>
                                 <p className="font-bold text-3xl lg:text-6xl mt-2 lg:mt-6">Bersama Kami.</p>
                             </div>
-                            <p className="w-[100%] lg:w-[50%] font-normal lg:text-xl mt-6 lg:mt-12">
+                            <p className="animate-fade-left animate-once animate-duration-[1500ms] w-[100%] lg:w-[50%] font-normal lg:text-xl mt-6 lg:mt-12">
                                 Memahami dan meresapi keanekaragaman warisan budaya yang membangun identitas kita. Mulai petualangan kebudayaan, di mana setiap langkah membawa Anda lebih dekat dengan keindahan tradisi, seni, dan kisah yang melibatkan hati.
                             </p>
                         </div>
 
-                        <div className="flex justify-center mx-auto m-12 ">
-                            <Slider {...budaya} className="grid place-items-center  w-[90%] ml-2 sm:ml-2 sm:w-[80%] md:w-[70%] md:ml-24 lg:w-[100%] 3xl:w-[80%] lg:ml-[-16px]   mb-16">
+                        <div className=" flex justify-center mx-auto m-12 ">
+                            <Slider {...budaya} className="animate-fade-up animate-once animate-duration-[1500ms] grid place-items-center  w-[90%] ml-2 sm:ml-2 sm:w-[80%] md:w-[70%] md:ml-24 lg:w-[100%] 3xl:w-[80%] lg:ml-[-16px]   mb-16">
                                 <div className="relative max-w-[400px]  sm:ml-10 md:max-w-[400px] lg:max-w-[400px] h-[488px] m-auto bg-white rounded-2xl overflow-hidden shadow-lg ">
                                     <Image src="/melayani.png" alt="Sunset in the mountains" width={400} height={242} />
                                     <div className="px-6 py-8">

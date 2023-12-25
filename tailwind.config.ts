@@ -21,6 +21,9 @@ const config: Config = {
       transition: ['responsive'],
     },
   },
+  plugins: [
+    require('tailwindcss-animated')
+  ],
 }
 
 export default config

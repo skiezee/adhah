@@ -18,7 +18,7 @@ const Dashboard: React.FC = () => {
     return (
         <>
             <Navbar />
-            <div className="scroll-smooth">
+            <div className="scroll-smooth" style={{ scrollBehavior: 'smooth' }}>
                 <div id="Dashboard"  className="">
                     <LandingPage/>
                 </div>

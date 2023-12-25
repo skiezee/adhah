@@ -4,7 +4,7 @@ const LandingSevenPage = () => {
     return (
         <>
             <div className="flex flex-col lg:flex-row justify-between mb-20 -mt-12">
-                <div className="flex flex-col justify-center h-screen mx-auto lg:mt-24 lg:mt-0 lg:mb-12 lg:mb-0 lg:m-12 lg:mt-20">
+                <div className="animate-fade-right animate-once animate-duration-[1500ms] flex flex-col justify-center h-screen mx-auto lg:mt-24 lg:mt-0 lg:mb-12 lg:mb-0 lg:m-12 lg:mt-20">
                     <div className="">
                         <p className="font-bold text-2xl text-[#333333] mb-2">Lokasi Kami</p>
                         <p className="text-[#555555] font-normal text-lg">Purwokerto, 53127</p>
@@ -22,7 +22,7 @@ const LandingSevenPage = () => {
                         <p className="text-[#555555] font-normal text-lg">developer@adhah.com</p>
                     </div>
                 </div>
-                <iframe src="https://maps.google.com/maps?q=purwokerto+utara&t=&z=13&ie=UTF8&iwloc=&output=embed" className="w-[100%] h-[400px] lg:w-[50%] lg:h-screen xl:h-[818px] 2xl:h-[913px]"></iframe>
+                <iframe src="https://maps.google.com/maps?q=purwokerto+utara&t=&z=13&ie=UTF8&iwloc=&output=embed" className="animate-fade-left animate-once animate-duration-[1500ms] w-[100%] h-[400px] lg:w-[50%] lg:h-screen xl:h-[818px] 2xl:h-[913px]"></iframe>
             </div>
         </>
     )

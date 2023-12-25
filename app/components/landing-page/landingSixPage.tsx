@@ -71,7 +71,7 @@ export default class LandingSix extends Component {
             <>
                 <div className="relative bg-[#3A170D] pb-10">
 
-                    <div className="lg:flex lg:flex-col md:flex md:flex-col justify-between text-white m-12 lg:m-24 py-8 lg:py-12">
+                    <div className="animate-fade-down animate-once animate-duration-[1500ms] lg:flex lg:flex-col md:flex md:flex-col justify-between text-white m-12 lg:m-24 py-8 lg:py-12">
                         <div className="text-center">
                             <p className="text-[#BC8B4C] mx-auto lg:mt-24 font-semibold text-2xl">INFORMASI BUDAYA</p>
                             <p className="text-white mx-auto mt-4 font-bold text-xl lg:text-4xl">Menyelami Nusantara Melalui Informasi Budaya</p>
@@ -80,7 +80,7 @@ export default class LandingSix extends Component {
                     </div>
 
                     <div className="flex justify-center mx-auto m-12 p-12 gap-2">
-                        <Slider {...budaya} className="grid place-items-center  w-[90%] ml-2 sm:ml-2 sm:w-[80%] md:w-[70%] md:ml-24 lg:w-[100%] 3xl:w-[80%] lg:ml-[-16px]  lg:mt-10 mb-16">
+                        <Slider {...budaya} className="animate-fade-up animate-once animate-duration-[1500ms] grid place-items-center  w-[90%] ml-2 sm:ml-2 sm:w-[80%] md:w-[70%] md:ml-24 lg:w-[100%] 3xl:w-[80%] lg:ml-[-16px] -mt-14 mb-8">
                             <div className="relative max-w-[400px]  sm:ml-10 md:max-w-[400px] lg:max-w-[400px] h-[488px] m-auto bg-white rounded-2xl overflow-hidden shadow-lg ">
                                 <Image src="/keindahan-tradisi.png" alt="Sunset in the mountains" width={400} height={242} />
                                 <div className="px-6 py-8">
