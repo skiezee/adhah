@@ -16,9 +16,9 @@ export default function DetailKainTradisional() {
                 </div>
                 <div className="flex justify-center">
                     <div className="mt-16 text-center">
-                        <p className="font-semibold text-[26px]">Informasi Budaya:</p>
-                        <p className="font-bold text-[48px]">Kain Tradisional</p>
-                        <div className="m-24 text-[#555555] w-[100%]">
+                        <p className="font-semibold text-xl lg:text-[26px]">Informasi Budaya:</p>
+                        <p className="font-bold text-2xl lg:text-[48px] mt-4">Kain Tradisional</p>
+                        <div className="m-12 lg:m-24 text-[#555555] w-[90%] lg:w-[100%]">
                             <p className="text-left font-normal text-[20px] w-[90%]">
                                 Kain batik, dengan pola-pola yang khas dan warna-warna yang memukau, tidak hanya sekadar pakaian, tetapi juga simbol kekayaan budaya Indonesia. Karnaval Batik menjadi perayaan yang menggambarkan keindahan dan makna di balik kain tradisional ini, mengajak masyarakat untuk lebih menghargai serta memahami warisan nenek moyang.                            </p>
                             <p className="text-left font-normal text-[20px] mt-8  w-[90%]">

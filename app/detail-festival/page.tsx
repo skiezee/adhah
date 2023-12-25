@@ -16,9 +16,9 @@ export default function DetailFestival() {
                 </div>
                 <div className="flex justify-center">
                     <div className="mt-16 text-center">
-                        <p className="font-semibold text-[26px]">Mengenal Festival Adat:</p>
-                        <p className="font-bold text-[48px]">Memahami Rituil Kebudayaan Lokal</p>
-                        <div className="m-24  text-[#555555] w-[100%]">
+                        <p className="font-semibold text-xl lg:text-[26px]">Mengenal Festival Adat:</p>
+                        <p className="font-bold text-2xl lg:text-[48px] mt-4">Memahami Rituil Kebudayaan Lokal</p>
+                        <div className="m-12 lg:m-24 text-[#555555] w-[90%] lg:w-[100%]">
                             <p className="text-left font-normal text-[20px] w-[90%]">
                                 Festival adat adalah perayaan kebudayaan yang diwariskan dari generasi ke generasi, mencerminkan identitas dan nilai-nilai masyarakat setempat. Festival ini tidak hanya menyajikan hiburan, tetapi juga menggambarkan kearifan lokal, kepercayaan, dan tradisi yang telah terpelihara selama bertahun-tahun. Artikel ini akan membahas esensi dan makna di balik festival adat, serta bagaimana ritual kebudayaan lokal menjadi wahana untuk memahami sejarah dan keberagaman budaya.
                             </p>

@@ -16,9 +16,9 @@ export default function DetailWanita() {
                 </div>
                 <div className="flex justify-center">
                     <div className="mt-16 text-center">
-                        <p className="font-semibold text-[26px]">Wanita Indonesia:</p>
-                        <p className="font-bold text-[48px]">Pencapaian dan Kekuatan di Balik Kebudayaan</p>
-                        <div className="m-24 text-[#555555] w-[100%]">
+                        <p className="font-semibold text-xl lg:text-[26px]">Wanita Indonesia:</p>
+                        <p className="font-bold text-2xl lg:text-[48px] mt-4">Pencapaian dan Kekuatan di Balik Kebudayaan</p>
+                        <div className="m-12 lg:m-24 text-[#555555] w-[90%] lg:w-[100%]">
                             <p className="text-left font-normal text-[20px] w-[90%]">
                                 Perempuan Indonesia telah memainkan peran sentral dalam pembentukan dan pemeliharaan kebudayaan bangsa. Meskipun berada dalam konteks nilai-nilai tradisional, perempuan Indonesia telah menunjukkan keberanian, kecerdasan, dan kekuatan yang mengagumkan dalam berbagai bidang. Artikel ini akan menggali pencapaian dan kekuatan yang dimiliki perempuan Indonesia di tengah keberagaman budaya yang kaya.
                             </p>

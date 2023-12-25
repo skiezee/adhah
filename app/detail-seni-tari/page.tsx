@@ -16,9 +16,9 @@ export default function DetailSeniTeri() {
                 </div>
                 <div className="flex justify-center">
                     <div className="mt-16 text-center">
-                        <p className="font-semibold text-[26px]">Merayakan Harmoni:</p>
-                        <p className="font-bold text-[48px]">Seni Tari Tradisional Nusantara</p>
-                        <div className="m-24 text-[#555555] w-[100%]">
+                        <p className="font-semibold text-xl lg:text-[26px]">Merayakan Harmoni:</p>
+                        <p className="font-bold text-2xl lg:text-[48px] mt-4">Seni Tari Tradisional Nusantara</p>
+                        <div className="m-12 lg:m-24 text-[#555555] w-[90%] lg:w-[100%]">
                             <p className="text-left font-normal text-[20px] w-[90%]">
                                 Seni tari tradisional di Nusantara memegang peran utama dalam mewariskan kekayaan budaya dari satu generasi ke generasi berikutnya. Setiap suku dan daerah di Indonesia memiliki tarian khasnya sendiri yang merefleksikan sejarah, tradisi, dan keunikan budaya mereka. Tarian ini tidak sekadar gerakan tubuh, melainkan juga sarana untuk menyampaikan cerita, nilai-nilai, dan makna mendalam yang melekat dalam kehidupan masyarakatnya.
                             </p>

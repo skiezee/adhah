@@ -71,9 +71,9 @@ export default class LandingThird extends Component {
         return (
             <>
                 {/* bagian ketiga landing */}
-                <div className="relative bg-gradient-to-r from-[#3A170D] to-[#DBA75B] -mt-24 lg:mt-0 lg:mb-24">
+                <div className="relative bg-gradient-to-r from-[#3A170D] to-[#DBA75B]  lg:mt-0 lg:mb-24 pb-10 ">
                     <div className="lg:m-12 lg:m-24 ">
-                        <div className="m-8 lg:flex lg:flex-row md:flex md:flex-col justify-between text-white mt-24">
+                        <div className="m-8 lg:flex lg:flex-row md:flex md:flex-col justify-between text-white m-12 lg:m-24 py-8 lg:py-12">
                             <div className="mt-8 lg:mt-12">
                                 <p className="font-semibold text-2xl lg:text-5xl">Melek Budaya,</p>
                                 <p className="font-bold text-3xl lg:text-6xl mt-2 lg:mt-6">Bersama Kami.</p>

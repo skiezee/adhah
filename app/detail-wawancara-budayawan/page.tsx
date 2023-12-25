@@ -17,9 +17,9 @@ export default function DetailWawancaraBudayawan() {
                 </div>
                 <div className="flex justify-center">
                     <div className="mt-16 text-center">
-                        <p className="font-semibold text-[26px]">Informasi Budaya:</p>
-                        <p className="font-bold text-[48px]">Wawancara Budayawan</p>
-                        <div className="m-24 text-[#555555]">
+                        <p className="font-semibold text-xl lg:text-[26px]">Informasi Budaya:</p>
+                        <p className="font-bold text-2xl lg:text-[48px] mt-4">Wawancara Budayawan</p>
+                        <div className="m-12 lg:m-24 text-[#555555] w-[80%] lg:w-[100%]">
                             <p className="text-left font-normal text-[20px] w-[100%]">
                                 Cerita dan pandangan langsung dari tokoh budaya menjadi jendela yang terbuka lebar untuk memahami dengan lebih dalam perjalanan melestarikan warisan budaya Indonesia. Salah satu pilar utama yang mengemban tugas mulia ini adalah Didik Nini Thowok, seorang budayawan ulung yang telah mengabdikan diri dalam mempertahankan kekayaan budaya Indonesia. Melalui wawancara eksklusif, kita akan menapak tilas perjalanan dan visi beliau yang telah memberikan kontribusi besar dalam menjaga keberlanjutan kearifan lokal.
                             </p>

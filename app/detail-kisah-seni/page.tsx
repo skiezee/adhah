@@ -16,9 +16,9 @@ export default function DetailKisahSeni() {
                 </div>
                 <div className="flex justify-center">
                     <div className="mt-16 text-center">
-                        <p className="font-semibold text-[26px]">Informasi Budaya:</p>
-                        <p className="font-bold text-[48px]">Kisah Seni</p>
-                        <div className="m-24 text-[#555555] w-[100%]">
+                        <p className="font-semibold text-xl lg:text-[26px]">Informasi Budaya:</p>
+                        <p className="font-bold text-2xl lg:text-[48px] mt-4">Kisah Seni</p>
+                        <div className="m-12 lg:m-24 text-[#555555] w-[90%] lg:w-[100%]">
                             <p className="text-left font-normal text-[20px] w-[90%]">
                                 Karya seniman-seniman visioner yang menggambarkan keindahan dan kompleksitas budaya Indonesia hadir sebagai cahaya yang menerangi lorong seni, membawa penonton pada perjalanan spiritual melalui medium visual yang memukau. Di tengah gemerlapnya dunia seni, salah satu tempat yang menjadi panggung magis bagi kisah seni Indonesia adalah Saung Angklung Udjo.                            </p>
                             <p className="text-left font-normal text-[20px] mt-8 w-[90%]">
