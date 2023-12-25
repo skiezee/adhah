@@ -18,7 +18,7 @@ const Navbar = () => {
 
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
       <div className="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-8">
-        <a href="/dashboard" className="flex items-center ">
+        <a href="/" className="flex items-center ">
           <Image
             src="/logo-adhah.png"
             alt="Vercel Logo"
