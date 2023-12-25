@@ -7,7 +7,7 @@ export default function DetailSeniTeri() {
         <>
             <div className="bg-white">
                 <div className="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-8">
-                    <Link href="/dashboard"> <Image src='/arrow-left.png' alt="arrow" width={27} height={20} /> </Link>
+                    <Link href="/"> <Image src='/arrow-left.png' alt="arrow" width={27} height={20} /> </Link>
                 </div>
             </div>
             <div className="">

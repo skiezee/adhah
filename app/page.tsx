@@ -1,7 +1,5 @@
-"use client"
-import { Navbar } from '@nextui-org/react';
+import Navbar from './components/navbar/navbar';
 import Image from 'next/image';
-
 import React, { useRef } from 'react';
 import LandingPage from './components/landing-page/landingPage';
 import LandingSec from './components/landing-page/landingSecPage';
@@ -13,41 +11,36 @@ import LandingSevenPage from './components/landing-page/landingSevenPage';
 import Footer from './components/landing-page/footer';
 
 const Dashboard: React.FC = () => {
-    const landingPageRef = useRef(null);
-    const landingSecRef = useRef(null);
-    const landingThirdRef = useRef(null);
-    const landingFourRef = useRef(null);
-    const landingFiveRef = useRef(null);
-    const landingSixRef = useRef(null);
-    const landingSevenRef = useRef(null);
-    const footerRef = useRef(null);
+
+    
+    
 
     return (
         <>
             <Navbar />
             <div className="scroll-smooth">
-                <div id="LandingPage" ref={landingPageRef} className="">
-                    <LandingPage />
+                <div id="Dashboard"  className="">
+                    <LandingPage/>
                 </div>
-                <div id="LandingSec" ref={landingSecRef} className="">
+                <div id="LandingSec"  className="">
                     <LandingSec />
                 </div>
-                <div id="LandingThird" ref={landingThirdRef} className="">
+                <div id="LandingThird"  className="">
                     <LandingThird />
                 </div>
-                <div id="LandingFour" ref={landingFourRef} className="">
+                <div id="LandingFour"  className="">
                     <LandingFour />
                 </div>
-                <div id="LandingFivePage" ref={landingFiveRef} className="">
+                <div id="LandingFivePage"  className="">
                     <LandingFivePage />
                 </div>
-                <div id="LandingSix" ref={landingSixRef} className="">
+                <div id="LandingSix" className="">
                     <LandingSix />
                 </div>
-                <div id="LandingSevenPage" ref={landingSevenRef} className="">
+                <div id="LandingSevenPage"  className="">
                     <LandingSevenPage />
                 </div>
-                <div id="Footer" ref={footerRef} className="">
+                <div id="Footer" className="">
                     <Footer />
                 </div>
             </div>
@@ -55,5 +48,4 @@ const Dashboard: React.FC = () => {
     );
 };
 
-export const dashboard = React.createRef<HTMLDivElement>();
 export default Dashboard;
