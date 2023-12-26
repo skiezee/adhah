@@ -60,13 +60,13 @@ const Navbar = () => {
               <a   href="/" className="block py-2 px-3   md:bg-transparent md:p-0 text-[#949494] hover:text-[#555555]" aria-current="page">Beranda</a>
             </li>
             <li>
-              <a href="#LandingFour" className="block py-2 px-3   md:bg-transparent md:p-0 text-[#949494] hover:text-[#555555]">Misi Kami</a>
+              <a href="/#LandingFour" className="block py-2 px-3   md:bg-transparent md:p-0 text-[#949494] hover:text-[#555555]">Misi Kami</a>
             </li>
             <li>
-              <a href="#LandingFivePage" className="block py-2 px-3   md:bg-transparent md:p-0 text-[#949494] hover:text-[#555555]">Artikel</a>
+              <a href="/#LandingFivePage" className="block py-2 px-3   md:bg-transparent md:p-0 text-[#949494] hover:text-[#555555]">Artikel</a>
             </li>
             <li>
-              <a href="#LandingSix" className="block py-2 px-3   md:bg-transparent md:p-0 text-[#949494] hover:text-[#555555]">Informasi Budaya</a>
+              <a href="/#LandingSix" className="block py-2 px-3   md:bg-transparent md:p-0 text-[#949494] hover:text-[#555555]">Informasi Budaya</a>
             </li>
             <li>
               <a  href="/tentang-kami" className="block py-2 px-3   md:bg-transparent md:p-0 text-[#949494] hover:text-[#555555]">Tentang Kami</a>
