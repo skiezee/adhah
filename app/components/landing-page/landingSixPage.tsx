@@ -79,7 +79,7 @@ export default class LandingSix extends Component {
                         </div>
                     </div>
 
-                    <div className="flex justify-center mx-auto m-12 p-6 gap-2">
+                    <div className="flex justify-center mx-auto m-12 p-12 gap-2">
                         <Slider {...budaya} className="animate-fade-up animate-once animate-duration-[1500ms] grid place-items-center w-[90%] ml-2 sm:ml-2 sm:w-[80%] md:w-[70%] md:ml-24 lg:w-[100%] 3xl:w-[80%] lg:ml-[-16px] -mt-14 mb-8">
                             <div className="relative max-w-[400px]  sm:ml-10 md:max-w-[400px] lg:max-w-[400px] h-[488px] m-auto bg-white rounded-2xl overflow-hidden shadow-lg ">
                                 <Image src="/keindahan-tradisi.png" alt="Sunset in the mountains" width={400} height={242} />
