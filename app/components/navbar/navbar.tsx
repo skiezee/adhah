@@ -1,8 +1,6 @@
 "use client"
 import Image from 'next/image';
-import Link from 'next/link';
 import React, { useState } from 'react';
-
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -11,11 +9,7 @@ const Navbar = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  
-
   return (
-
-
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
       <div className="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-8">
         <a href="/" className="flex items-center ">
@@ -57,19 +51,19 @@ const Navbar = () => {
         >
           <ul className="font-normal flex flex-col p-4 md:p-0 mt-4 md:mt-0 md:flex-row md:space-x-8 rtl:space-x-reverse">
             <li>
-              <a   href="/" className="block py-2 px-3   md:bg-transparent md:p-0 text-[#949494] hover:text-[#555555]" aria-current="page">Beranda</a>
+              <a href="/" className="block py-2 px-3 md:p-0 text-[#949494] hover:text-[#555555]" aria-current="page">Beranda</a>
             </li>
             <li>
-              <a href="/#LandingFour" className="block py-2 px-3   md:bg-transparent md:p-0 text-[#949494] hover:text-[#555555]">Misi Kami</a>
+              <a href="/#LandingFour" className="block py-2 px-3 md:p-0 text-[#949494] hover:text-[#555555]">Misi Kami</a>
             </li>
             <li>
-              <a href="/#LandingFivePage" className="block py-2 px-3   md:bg-transparent md:p-0 text-[#949494] hover:text-[#555555]">Artikel</a>
+              <a href="/#LandingFivePage" className="block py-2 px-3 md:p-0 text-[#949494] hover:text-[#555555]">Artikel</a>
             </li>
             <li>
-              <a href="/#LandingSix" className="block py-2 px-3   md:bg-transparent md:p-0 text-[#949494] hover:text-[#555555]">Informasi Budaya</a>
+              <a href="/#LandingSix" className="block py-2 px-3 md:p-0 text-[#949494] hover:text-[#555555]">Informasi Budaya</a>
             </li>
             <li>
-              <a  href="/tentang-kami" className="block py-2 px-3   md:bg-transparent md:p-0 text-[#949494] hover:text-[#555555]">Tentang Kami</a>
+              <a href="/tentang-kami" className="block py-2 px-3 md:p-0 text-[#949494] hover:text-[#555555]">Tentang Kami</a>
             </li>
           </ul>
         </div>

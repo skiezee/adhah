@@ -1,6 +1,4 @@
 import Navbar from './components/navbar/navbar';
-import Image from 'next/image';
-import React, { useRef } from 'react';
 import LandingPage from './components/landing-page/landingPage';
 import LandingSec from './components/landing-page/landingSecPage';
 import LandingThird from './components/landing-page/landingThird';
@@ -10,37 +8,34 @@ import LandingSix from './components/landing-page/landingSixPage';
 import LandingSevenPage from './components/landing-page/landingSevenPage';
 import Footer from './components/landing-page/footer';
 
-const Dashboard: React.FC = () => {
-
-    
-    
+const Dashboard = () => {
 
     return (
         <>
             <Navbar />
-            <div className="scroll-smooth" style={{ scrollBehavior: 'smooth' }}>
-                <div id="Dashboard"  className="">
+            <div className="scroll-smooth">
+                <div id="Dashboard"  >
                     <LandingPage/>
                 </div>
-                <div id="LandingSec"  className="">
+                <div id="LandingSec"  >
                     <LandingSec />
                 </div>
-                <div id="LandingThird"  className="">
+                <div id="LandingThird"  >
                     <LandingThird />
                 </div>
-                <div id="LandingFour"  className="">
+                <div id="LandingFour"  >
                     <LandingFour />
                 </div>
-                <div id="LandingFivePage"  className="">
+                <div id="LandingFivePage" >
                     <LandingFivePage />
                 </div>
-                <div id="LandingSix" className="">
+                <div id="LandingSix" >
                     <LandingSix />
                 </div>
-                <div id="LandingSevenPage"  className="">
+                <div id="LandingSevenPage">
                     <LandingSevenPage />
                 </div>
-                <div id="Footer" className="">
+                <div id="Footer">
                     <Footer />
                 </div>
             </div>

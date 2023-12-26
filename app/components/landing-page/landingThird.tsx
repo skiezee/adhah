@@ -4,7 +4,6 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Link from "next/link";
 
 export default class LandingThird extends Component {
     render() {
@@ -83,10 +82,10 @@ export default class LandingThird extends Component {
                             </p>
                         </div>
 
-                        <div className=" flex justify-center mx-auto m-12 ">
+                        <div className="flex justify-center mx-auto m-12 p-6 gap-2">
                             <Slider {...budaya} className="animate-fade-up animate-once animate-duration-[1500ms] grid place-items-center  w-[90%] ml-2 sm:ml-2 sm:w-[80%] md:w-[70%] md:ml-24 lg:w-[100%] 3xl:w-[80%] lg:ml-[-16px]   mb-16">
                                 <div className="relative max-w-[400px]  sm:ml-10 md:max-w-[400px] lg:max-w-[400px] h-[488px] m-auto bg-white rounded-2xl overflow-hidden shadow-lg ">
-                                    <Image src="/melayani.png" alt="Sunset in the mountains" width={400} height={242} />
+                                    <Image src="/keberagaman.svg" alt="Sunset in the mountains" width={400} height={242} loading="lazy" />
                                     <div className="px-6 py-8">
                                         <div className="font-bold text-2xl mb-2 ">Menyelami Keberagaman</div>
                                         <p className="text-[#555555] text-base mt-4">
@@ -96,7 +95,7 @@ export default class LandingThird extends Component {
 
                                 </div>
                                 <div className="relative max-w-[400px] sm:ml-10 md:max-w-[400px] lg:max-w-[400px] h-[488px] bg-white rounded-2xl overflow-hidden shadow-lg lg:mt-0 md:mt-0 ">
-                                    <Image src="/wayang.png" alt="Sunset in the mountains" width={400} height={242} />
+                                    <Image src="/wayang.svg" alt="Sunset in the mountains" width={400} height={242} loading="lazy" />
                                     <div className="px-6 py-8">
                                         <div className="font-bold text-2xl mb-2">Membangun Pemahaman</div>
                                         <p className="text-[#555555] text-base mt-4">
@@ -105,24 +104,24 @@ export default class LandingThird extends Component {
                                     </div>
 
                                 </div>
-                                <div className="relative max-w-[400px] sm:ml-10 md:max-w-[400px] lg:max-w-[400px]  h-[488px] bg-white rounded-2xl overflow-hidden shadow-lg lg:mt-0 ">
-                                    <Image src="/smile.png" alt="Sunset in the mountains" width={400} height={242} />
+                                <div className="relative max-w-[400px] sm:ml-10 md:max-w-[400px] lg:max-w-[400px] h-[488px] bg-white rounded-2xl overflow-hidden shadow-lg lg:mt-0 ">
+                                    <Image src="/smile.svg" alt="Sunset in the mountains" width={400} height={242} loading="lazy" />
                                     <div className="px-6 py-8">
                                         <div className="font-bold text-2xl mb-2">Aksi Positif</div>
                                         <p className="text-[#555555] text-base mt-4">
                                             Usaha melestarikan dan mempromosikan keberagaman budaya guna menciptakan dampak positif dan pengalaman berharga untuk menjaga warisan budaya Indonesia.
                                         </p>
                                     </div>
-                                   
+
                                 </div>
-                                <div className="relative max-w-[400px] sm:ml-10 md:max-w-[400px] lg:max-w-[400px]  h-[488px] bg-white rounded-2xl overflow-hidden shadow-lg lg:mt-0 ">
-                                    <Image src="/melirik.png" alt="Sunset in the mountains" width={400} height={242} />
+                                <div className="relative max-w-[400px] sm:ml-10 md:max-w-[400px] lg:max-w-[400px] h-[488px] bg-white rounded-2xl overflow-hidden shadow-lg lg:mt-0 ">
+                                    <Image src="/melirik.svg" alt="Sunset in the mountains" width={400} height={242} loading="lazy" />
                                     <div className="px-6 py-8">
                                         <div className="font-bold text-2xl mb-2">Merayakan Keragaman</div>
                                         <p className="text-[#555555] text-base mt-4">
-                                        perjalanan yang menakjubkan untuk merayakan keragaman budaya di seluruh Indonesia. Menemukan keindahan tradisi, kuliner, dan seni yang membuat Indonesia begitu istimewa                                        </p>
+                                            perjalanan yang menakjubkan untuk merayakan keragaman budaya di seluruh Indonesia. Menemukan keindahan tradisi, kuliner, dan seni yang membuat Indonesia begitu istimewa                                        </p>
                                     </div>
-                                
+
                                 </div>
 
                             </Slider>

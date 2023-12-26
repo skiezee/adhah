@@ -40,9 +40,6 @@ export default function DetailWawancaraBudayawan() {
                                 Wawancara ini bukan sekadar jendela bagi kita untuk melihat perjalanan Didik Nini Thowok sebagai budayawan, tetapi juga sebagai panggilan untuk bersama-sama menjaga dan merawat keberlanjutan warisan budaya Indonesia. Dalam setiap kata-kata dan cerita, Didik Nini Thowok memberikan inspirasi untuk terus bersatu dalam menjaga kearifan nenek moyang, menjadikannya pelita yang terang dalam kegelapan waktu.
                             </p>
                         </div>
-
-
-
                     </div>
                 </div>
             </div>

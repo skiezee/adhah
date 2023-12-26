@@ -32,7 +32,7 @@ const LandingSec = () => {
                             <h1 className="font-bold text-xs lg:text-xl text-[#BBBBBB]">PENGHARGAAN</h1>
                         </div>
                     </div>
-                <Image src='/gunung responsive.png' alt="gunung" width={680} height={427} className="block lg:hidden mx-auto mt-8 w-[300px] sm:w-[600px] md:w-[680px]"/>
+                    <Image src='/mountain-res.svg' alt="gunung" width={680} height={427} className="block lg:hidden mx-auto mt-8 w-[300px] sm:w-[600px] md:w-[680px]" loading="lazy" />
                 </div>
 
 
@@ -47,11 +47,12 @@ const LandingSec = () => {
                     </div>
 
                     <Image
-                        src='/mountain.png'
+                        src='/mountain.svg'
                         alt="mountain"
                         width={400}
                         height={0}
-                        className="hidden lg:block"
+                        className="hidden lg:block md:hidden"
+                        loading="lazy"
                     />
                 </div>
             </div>

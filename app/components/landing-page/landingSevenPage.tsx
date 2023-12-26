@@ -22,7 +22,7 @@ const LandingSevenPage = () => {
                         <p className="text-[#555555] font-normal text-lg">developer@adhah.com</p>
                     </div>
                 </div>
-                <iframe src="https://maps.google.com/maps?q=purwokerto+utara&t=&z=13&ie=UTF8&iwloc=&output=embed" className="animate-fade-left animate-once animate-duration-[1500ms] w-[100%] h-[400px] lg:w-[50%] lg:h-[750px] xl:h-[1020px] 2xl:h-[913px] mt-12"></iframe>
+                <iframe src="https://maps.google.com/maps?q=purwokerto+utara&t=&z=13&ie=UTF8&iwloc=&output=embed" title="maps" className="animate-fade-left animate-once animate-duration-[1500ms] w-[100%] h-[400px] lg:w-[50%] lg:h-[750px] xl:h-[1020px] 2xl:h-[913px] mt-12"></iframe>
             </div>
         </>
     )

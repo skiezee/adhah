@@ -1,7 +1,5 @@
 'use client'
-import Image from "next/image"
 import React, { Component } from "react";
-import Link from "next/link";
 import Navbar from "../components/navbar/navbar";
 import Landing from "../components/tentang-kami/landing";
 import LandingSecTentangKami from "../components/tentang-kami/landingSec";
